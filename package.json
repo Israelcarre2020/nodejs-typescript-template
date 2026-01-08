@@ -42,12 +42,12 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://github.com/yourusername/nodejs-monolith-template-ts.git"
+    "url": "https://github.com/Israelcarre2020/nodejs-typescript-template.git"
   },
   "bugs": {
-    "url": "https://github.com/yourusername/nodejs-monolith-template-ts/issues"
+    "url": "https://github.com/Israelcarre2020/nodejs-typescript-template/issues"
   },
-  "homepage": "https://github.com/yourusername/nodejs-monolith-template-ts#readme",
+  "homepage": "https://github.com/Israelcarre2020/nodejs-typescript-template#readme",
   "engines": {
     "node": ">=18.0.0"
   },

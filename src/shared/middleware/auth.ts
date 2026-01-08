@@ -6,6 +6,7 @@ import { AuthenticatedRequest } from "../types/index.js";
 /**
  * Middleware to authenticate JWT tokens
  * Adds user info to req.user if token is valid
+ * @param {Response} res - user response
  */
 export const authenticateToken = (
   req: AuthenticatedRequest,
@@ -40,3 +41,9 @@ export const authenticateToken = (
     }
   );
 };
+
+
+export const asyncFunction = async (name: String): Promise<String> => {
+  return name; 
+}
+
