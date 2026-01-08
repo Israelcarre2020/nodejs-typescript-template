@@ -1,0 +1,80 @@
+{
+  "name": "nodejs-typescript-template",
+  "version": "1.0.0",
+  "description": "🚀 Production-ready Node.js TypeScript template with Express, Sequelize ORM, JWT authentication, PostgreSQL, feature-first architecture, and security best practices. Perfect for building REST APIs and backend services.",
+  "main": "dist/server.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "dev": "NODE_ENV=development tsx watch src/server.ts",
+    "prod": "NODE_ENV=production node dist/server.js",
+    "type-check": "tsc --noEmit",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest",
+    "test:watch": "NODE_OPTIONS=--experimental-vm-modules jest --watch"
+  },
+  "keywords": [
+    "nodejs",
+    "express",
+    "sequelize",
+    "typescript",
+    "jwt",
+    "jwt-authentication",
+    "api",
+    "rest-api",
+    "template",
+    "boilerplate",
+    "monolith",
+    "monolithic",
+    "postgresql",
+    "supabase",
+    "backend",
+    "server",
+    "express-server",
+    "typescript-template",
+    "nodejs-template",
+    "express-template",
+    "feature-first",
+    "clean-architecture",
+    "production-ready"
+  ],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/nodejs-monolith-template-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/nodejs-monolith-template-ts/issues"
+  },
+  "homepage": "https://github.com/yourusername/nodejs-monolith-template-ts#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.5",
+    "@types/node": "^20.11.0",
+    "@types/pg": "^8.10.9",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "eslint": "^8.56.0",
+    "jest": "^30.2.0",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "express-rate-limit": "^8.2.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7"
+  }
+}
